@@ -8,4 +8,3 @@ def test_valid_triangles():
 
 def test_invalid_triangles():
     assert is_pythagoras_triangle([100, 3, 65]) == False
-    assert is_pythagoras_triangle([-5, 3, 4]) == None

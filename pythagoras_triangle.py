@@ -39,6 +39,8 @@ def is_pythagoras_triangle(arr: list[int, float]) -> bool:
         print("Exception occurred: List must contains three number's")
     except ValueError:
         print("Exception occurred: List must contains only positive number's")
+    except Exception as e:
+        logging.exception(e)
 
 
 if __name__ == "__main__":
