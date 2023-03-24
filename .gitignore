@@ -1,4 +1,4 @@
 venv/
 .vscode
 __pycache__
-avada.log
+.pytest_cache
